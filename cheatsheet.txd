@@ -1,0 +1,20 @@
+ - create folder (directory)
+  mkdir folder-name
+- enter the following that we created
+  cd folder-name
+- create file
+  touch file-name.html(css.txt, .js)
+
+On GitHub steps:
+1. create new repository by clicking on "+" sign to the next profile pic on github.com/your-username
+2. copy the line that has "git remote origin ..."
+
+Git commands - on your local computer:
+1. git init -> initialize  local repository (directory) as git repository
+    (prepare local repository to be attached to the one on GitHub)
+2. paste the line you copied from Github
+3. git remote -v -> to check if your local repository is connected with GitHub connected
+    (you should see something like: origin gihub/your-username/repository-name.git)
+4. git add . -> add all files from the repository to the staging phrase
+5. git command -m"some message goes here" -> attach the message to the commit
+6. git push origin master -> sends the files to the corresponding repository on GutHub
